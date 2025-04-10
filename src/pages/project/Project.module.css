@@ -1,0 +1,63 @@
+@import "../../vars.css";
+
+
+.h1 {
+    text-align: center;
+    font-size: 4rem;
+    color: rgb(0, 0, 0);
+    margin-top: 10rem;
+    font-family: "Playwrite GB S", cursive;
+    overflow: hidden;
+    border-right: 2px solid #000;
+    white-space: nowrap;
+    clip-path: inset(0 50% 0 50%);
+    animation: typing 3s steps(30, end) forwards, blink 0.5s steps(2, start) 3s;
+  }
+  
+  @keyframes typing {
+    from {
+      clip-path: inset(0 50% 0 50%);
+    }
+    to {
+      clip-path: inset(0 0 0 0);
+    }
+  }
+  
+  @media screen and (max-width: 1020px){
+    .h1 {
+      text-align: center;
+      font-size: 3rem;
+      margin-top: 17.5rem;
+    }
+  }
+  @media screen and (max-width: 760px){
+    .h1 {
+      text-align: center;
+      font-size: 2.3rem;
+      margin-top: 15rem;
+    }
+  }
+  @media screen and (max-width: 580px){
+    .h1 {
+      text-align: center;
+      font-size: 2rem;
+      padding-left: 10px;
+      margin-top: 15rem;
+    }
+  }
+  @media screen and (max-width: 510px){
+    .h1 {
+      text-align: center;
+      font-size: 1.4rem;
+      padding-right: 10px;
+      margin-top: 15rem;
+    }
+  }
+  @media screen and (max-width: 380px){
+    .h1 {
+      text-align: center;
+      font-size: 1.3rem;
+      padding-right: 10px;
+    }
+  }
+  

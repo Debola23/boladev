@@ -1,0 +1,65 @@
+#F{
+    font-family: "Playfair Display", serif;
+}
+
+.bt {
+    font-size: 18px;
+    color: grey;
+    font-family: Poppins;
+    font-weight: 400;
+    cursor: pointer;
+    position: relative;
+    border: none;
+    background: none;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 400ms;
+    transition-property: color;
+    display: inline-flex;
+    align-items: center;
+}
+  
+.bt:focus,
+.bt:hover {
+    color: rgb(0, 0, 0);
+}
+  
+.bt:focus:after,
+.bt:hover:after {
+    width: 100%;
+    right: ;
+    left: auto; 
+}
+  
+.bt:after {
+    content: "";
+    pointer-events: none;
+    bottom: -7px;
+    right: auto; 
+    left: 0; 
+    position: absolute;
+    width: 0%;
+    height: 1px;
+    background-color: #000000;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 500ms;
+    transition-property: width, right;
+}
+  
+.Icon {
+    width: 0.9em;
+    height: 0.8em;
+    margin-left: 10px;
+    fill: rgb(3, 3, 3);
+    transform: rotate(-45deg);
+    transition: transform 0.5s ease-out;
+}
+  
+.bt:hover .svgIcon {
+    transform: rotate(0deg);
+    fill: rgb(0, 0, 0);
+}
+@media screen and (max-width: 1020px){
+    .Aimg{
+        height: 100vh;
+    }
+}

@@ -1,0 +1,46 @@
+{
+  "name": "portfolio",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@react-hookz/web": "^25.1.0",
+    "@studio-freight/lenis": "^1.0.42",
+    "@tailwindcss/vite": "^4.0.6",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "gsap": "^3.12.7",
+    "lenis": "^1.2.3",
+    "lucide-react": "^0.483.0",
+    "matter-js": "^0.20.0",
+    "motion": "^12.5.0",
+    "react": "^18.3.1",
+    "react-dock": "^0.8.0",
+    "react-dom": "^18.3.1",
+    "react-icons": "^5.5.0",
+    "react-router-dom": "^6.27.0",
+    "react-typewriter-effect": "^1.1.0",
+    "tailwind-merge": "^3.0.2",
+    "tailwindcss": "^4.0.6",
+    "tw-animate-css": "^1.2.4"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.11.1",
+    "@types/react": "^18.3.10",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.2",
+    "eslint": "^9.11.1",
+    "eslint-plugin-react": "^7.37.0",
+    "eslint-plugin-react-hooks": "^5.1.0-rc.0",
+    "eslint-plugin-react-refresh": "^0.4.12",
+    "globals": "^15.9.0",
+    "vite": "^5.4.8",
+    "vitest": "^2.1.5"
+  }
+}
