@@ -6,7 +6,10 @@
     font-size: 4rem;
     color: rgb(0, 0, 0);
     margin-top: 10rem;
-    font-family: "Playwrite GB S", cursive;
+    font-family: "Fraunces", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
     overflow: hidden;
     border-right: 2px solid #000;
     white-space: nowrap;

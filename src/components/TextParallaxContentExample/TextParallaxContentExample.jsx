@@ -6,7 +6,7 @@ export const TextParallaxContentExample = () => {
 
 
   return (
-    <div>
+    <div id={Styles.hT}>
     <TextParallaxContent
       imgUrl="/Images/bola2.jpeg"
       subheading="Solaja"
@@ -117,7 +117,7 @@ const ExampleContent1 = () => (
     <div className="mx-auto grid max-w-5xl grid-cols-1 gap-8 px-4 pb-24 pt-12 md:grid-cols-12" id={Styles.F} >
       <h2 className="col-span-1 text-3xl font-bold md:col-span-4" >Introduction</h2>
       <div className="col-span-1 md:col-span-8">
-        <p className="mb-4 text-xl text-neutral-600 md:text-2xl">
+        <p className="mb-4 text-xl text-black md:text-2xl">
             I’m a Front-end  developer with a passion for building engaging and functional digital experiences. <br/>
             My journey into coding started as a challenge, and over time,<br/>
             I’ve advanced my skills through online courses and hands-on projects.<br/>
@@ -136,7 +136,7 @@ const ExampleContent1 = () => (
   const ExampleContent2 = () => (
     <div className="mx-auto grid max-w-5xl grid-cols-1 gap-8 px-4 pb-24 pt-12 md:grid-cols-12" id={Styles.F}>
         <h2 className="col-span-1 text-2xl font-semibold d md:col-span-4" >
-            You can also navigate to my Vercel from my Github to see more.
+            Github & Vercel.
             <a href="https://github.com/Debola23" target="_blank" rel="noopener noreferrer">
                 <section className="mt-[2rem] flex  ">
                 <button
@@ -165,10 +165,10 @@ const ExampleContent1 = () => (
         </h2>
      
         <div className="col-span-1 md:col-span-8">
-            <p className="mb-4 text-xl text-neutral-600 md:text-2xl ">
+            <p className="mb-4 text-xl text-black md:text-2xl ">
                 Check out my GitHub to see the projects I’ve been working on.<br/>
-                From frontend experiment,my repos showcase my coding journey<br/>
-                and problem-solving skills and passion for building<br/>
+                My frontend experimenting showcases my coding journey,<br/>
+                problem-solving skills and passion for building sites<br/>
                 Feel free to explore.
             </p>
         </div>
@@ -181,27 +181,18 @@ const ExampleContent1 = () => (
            Protfolio
            <section className="flex mt-[2rem]">
                 <button className={Styles.bt} onClick={() => window.open('/resume.pdf', '_blank')}>
-                    <span>CV</span>
-                    <span className={Styles.Icon}>
-                        <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            viewBox="0 0 448 512"
-                            className={Styles.svgIcon}>
-                            <path
-                                d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z">
-                            </path>
-                        </svg>
-                    </span>
+                  <a href="#" className={Styles.anchor}>
+                    <span>Download CV</span>
+                  </a>
                 </button>
             </section>
               
             
         </h2>
         <div className="col-span-1 md:col-span-8">
-            <p className="mb-4 text-xl text-neutral-600 md:text-2xl">
+            <p className="mb-4 text-xl text-black md:text-2xl">
                 Interested in my experience and technical skills? <br/>
-                Click the button to see my professional background, <br/>
-                projects, and expertise in software development.
+                Click the button to see my professional background. <br/>
             </p>
         </div>
   </div>

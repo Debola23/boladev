@@ -1,65 +1,58 @@
 #F{
-    font-family: "Playfair Display", serif;
+    font-family: "Space Grotesk", sans-serif;
 }
-
-.bt {
-    font-size: 18px;
-    color: grey;
-    font-family: Poppins;
-    font-weight: 400;
-    cursor: pointer;
+#hT{
+    font-family: "Space Grotesk", sans-serif;
+}
+/* From Uiverse.io by Codecite */ 
+.anchor {
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    font-family: sans-serif;
+    font-weight: 600;
+    border-radius: 50px;
+    border: 2px solid #000000;
+    padding: 14px;
+    font-size: 14px;
+    overflow: hidden;
     position: relative;
-    border: none;
-    background: none;
-    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
-    transition-duration: 400ms;
-    transition-property: color;
-    display: inline-flex;
-    align-items: center;
-}
+    margin-left: 1px;
+  }
   
-.bt:focus,
-.bt:hover {
-    color: rgb(0, 0, 0);
-}
+  .anchor:hover {
+    color: #4e484a;
+  }
   
-.bt:focus:after,
-.bt:hover:after {
-    width: 100%;
-    right: ;
-    left: auto; 
-}
-  
-.bt:after {
-    content: "";
-    pointer-events: none;
-    bottom: -7px;
-    right: auto; 
-    left: 0; 
+  .bt a::before {
     position: absolute;
-    width: 0%;
-    height: 1px;
+    content: "";
+    z-index: 0;
     background-color: #000000;
-    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
-    transition-duration: 500ms;
-    transition-property: width, right;
-}
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    height: 111%;
+    transition: all .3s ease;
+  }
   
-.Icon {
-    width: 0.9em;
-    height: 0.8em;
-    margin-left: 10px;
-    fill: rgb(3, 3, 3);
-    transform: rotate(-45deg);
-    transition: transform 0.5s ease-out;
-}
+  .bt a:hover::before {
+    height: 11%;
+  }
   
-.bt:hover .svgIcon {
-    transform: rotate(0deg);
-    fill: rgb(0, 0, 0);
-}
+  .bt span {
+    position: relative;
+    z-index: 2;
+    transition: all .3s ease;
+  }
 @media screen and (max-width: 1020px){
     .Aimg{
         height: 100vh;
+    }
+}
+@media screen and (max-width: 640px){
+    .anchor{
+        padding: 12px;
+        font-size: 12px;
     }
 }

@@ -21,35 +21,35 @@ export const Skills = () => {
       title: 'Styling & Design',
       description: 'Crafting visually appealing and responsive designs with advanced styling tools and frameworks.',
       icons: ['css', 'reactbootstrap', 'tailwind'],
-      bgColor: ' bg-[#073E59] text-white rounded-lg ',
+      bgColor: ' bg-black text-white rounded-lg ',
      
     },
     {
       title: 'Hosting & Deployment',
       description: 'Deploying applications using cloud platforms for scalability and efficiency.',
       icons: [ 'Vercel', 'Cloudflare'],
-      bgColor: 'bg-gray-700 text-white',
+      bgColor: 'bg-black text-white',
  
     },
     {
       title: 'Web Animations',
       description: 'Creating seamless animations and transitions to enhance user engagement.',
       icons: ['framer'],
-      bgColor: 'bg-gray-200 text-gray-900 rounded-lg',
+      bgColor: 'bg-black text-white rounded-lg',
    
     },
     {
       title: 'Version Control & Collaboration',
       description: 'Managing code efficiently with Git and collaborating seamlessly on projects.',
       icons: ['github', 'Git'],
-      bgColor: 'bg-gray-700 text-white',
+      bgColor: 'bg-black text-white',
   
     },
     {
       title: 'UI/UX Design',
       description: 'Designing user-centric interfaces that are intuitive, visually appealing, and easy to navigate.',
       icons: ['Figma'],
-      bgColor: 'bg-gray-200 text-black',
+      bgColor: 'bg-black text-white',
      
     },
   

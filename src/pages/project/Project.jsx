@@ -1,6 +1,5 @@
 import { Bar } from "../../components/Bar/Bar";
-import { SmoothScrollHero } from "../../components/SmoothScrollHero/SmoothScrollHero";
-
+import ShuffleHero from "../../components/ShuffleHero/ShuffleHero";
 import Styles from "./Project.module.css";
 
 
@@ -16,8 +15,8 @@ export const Project = () => {
             Awesome Creations
           </h1>
         </section>
-        <section className="mt-[10rem]">
-         <SmoothScrollHero/>
+        <section className="mt-[15rem]">
+        <ShuffleHero/>
         </section>
         <Bar/>
       </div>
