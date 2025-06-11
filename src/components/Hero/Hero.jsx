@@ -7,7 +7,7 @@ export const Hero = () => {
   return (
     <>
       <section className={Styles.hr}>
-        <h1 className={Styles.h1}>Hello <br/> i&apos;m a React Frontend Developer</h1>
+        <h1 className={Styles.h1}>Hello <br/> i&apos;m a Software Developer</h1>
       </section>
       <Footer/>
     </>

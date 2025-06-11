@@ -3,10 +3,6 @@ import Styles from './Skills.module.css'
 import { motion } from "framer-motion"
 
 
-
-
-
-
 export const Skills = () => { 
 
   const skills = [
@@ -22,6 +18,13 @@ export const Skills = () => {
       description: 'Crafting visually appealing and responsive designs with advanced styling tools and frameworks.',
       icons: ['css', 'reactbootstrap', 'tailwind'],
       bgColor: ' bg-black text-white rounded-lg ',
+     
+    },
+    {
+      title: 'Back-End Development',
+      description: 'Developing robust server-side applications and APIs to power dynamic web experiences.',
+      icons: ['Nodejs','Mongodb','Expressjs'],
+      bgColor: 'bg-black text-white',
      
     },
     {
@@ -49,6 +52,13 @@ export const Skills = () => {
       title: 'UI/UX Design',
       description: 'Designing user-centric interfaces that are intuitive, visually appealing, and easy to navigate.',
       icons: ['Figma'],
+      bgColor: 'bg-black text-white',
+     
+    },
+    {
+      title: 'Productivity',
+      description: 'For time management and also used for proper organization.',
+      icons: ['Slack','Notion'],
       bgColor: 'bg-black text-white',
      
     },

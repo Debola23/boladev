@@ -1,3 +1,10 @@
 .sH{
     font-family: "Fraunces", serif;
 }
+
+
+@media screen and (max-width: 640px){
+    #projectG{
+        height: 460px;
+    }
+}

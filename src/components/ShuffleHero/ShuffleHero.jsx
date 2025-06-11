@@ -42,76 +42,35 @@ const shuffle = (array) => {
 const squareData = [
   {
     id: 1,
-    src: "/Images/clean.png",
-    link: "/projects/cleanify",
+    src: "/Images/loading.jpeg",
+    link: "",
   },
   {
     id: 2,
-    src: "/Images/coin.png",
-    link: "https://coins-red.vercel.app/",
+    src: "/Images/jobplus.png",
+    link: "https://job-plus.vercel.app/",
   },
   {
     id: 3,
-    src: "/Images/homes.png",
-    link: "https://real-estate-mhek.vercel.app/",
+    src: "/Images/crib.png",
+    link: "https://crib-henna.vercel.app/",
   },
   {
     id: 4,
-    src: "/Images/todo.png",
-    link: "https://todo-five-gilt-41.vercel.app/",
-  },
-  {
-    id: 5,
-    src: "/Images/photobox.png",
-    link: "/projects/cleanify",
-  },
-  {
-    id: 6,
     src: "/Images/power.png",
     link: "https://power-set-omega.vercel.app/",
   },
   {
-    id: 7,
+    id: 5,
     src: "/Images/riverstore.png",
     link: "https://river-store-woad.vercel.app/",
   },
   {
-    id: 8,
-    src: "/Images/shopbox.png",
-    link: "https://shopbox.vercel.app/",
-  },
-  {
-    id: 9,
-    src:"/Images/loading.jpeg",
-  },
-  {
-    id: 10,
+    id: 6,
     src: "/Images/loading.jpeg",
+      link: "",
   },
-  {
-    id: 11,
-    src: "/Images/loading.jpeg",
-  },
-  {
-    id: 12,
-    src: "/Images/loading.jpeg",
-  },
-  {
-    id: 13,
-    src: "/Images/loading.jpeg",
-  },
-  {
-    id: 14,
-    src: "/Images/loading.jpeg",
-  },
-  {
-    id: 15,
-    src: "/Images/loading.jpeg",
-  },
-  {
-    id: 16,
-    src: "/Images/loading.jpeg",
-  },
+ 
 ];
 
 const generateSquares = () => {
@@ -152,7 +111,7 @@ const ShuffleGrid = () => {
   };
 
   return (
-    <div className="grid grid-cols-4 grid-rows-4 h-[450px] gap-1">
+    <div className="grid grid-cols-2 grid-rows-4 h-[36rem] gap-10" id={Styles.projectG}>
       {squares.map((sq) => sq)}
     </div>
   );
